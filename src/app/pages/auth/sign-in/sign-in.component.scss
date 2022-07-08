@@ -1,0 +1,44 @@
+.login-wrapper {
+  background: #ffffff;
+  padding: 45px;
+  min-width: 500px;
+  border-radius: 10px;
+}
+
+.title {
+  color: #35527f;
+}
+
+.sub-title {
+  color: #b5c1cf;
+}
+
+.input-svg {
+  svg {
+    width: 18px;
+    height: 18px;
+    margin-left: 6px;
+  }
+}
+
+.form-control {
+  padding: 9px 6px;
+  border-left: 0 !important;
+  border: 1px solid #e7efff;
+
+  &:focus {
+    box-shadow: none;
+    color: #237fff;
+  }
+}
+
+.input-group-text {
+  background: none;
+  border: 1px solid #e7efff;
+}
+
+.sign-up {
+  color: #35527f;
+  font-weight: 700;
+  text-decoration: none;
+}
